@@ -36,8 +36,11 @@ projects[designkit][version] = "1.0-alpha5"
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.1-alpha3"
 
+projects[features][type] = "module"
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta8"
+projects[features][download][type] = "cvs"
+projects[features][download][module] = "contributions/modules/features"
+projects[features][download][revision] = "DRUPAL-6--1"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "1.0-beta1"
@@ -117,6 +120,8 @@ projects[views][version] = "2.11"
 projects[views][patch][] = "http://drupal.org/files/issues/694094_views_default_reset_2010-05-25.patch"
 ; original issue: http://drupal.org/node/357529
 projects[views][patch][] = "http://cloud.github.com/downloads/developmentseed/atrium_features/views2_simple_translatables.patch"
+; http://drupal.org/node/789674#comment-3230930
+projects[views][patch][] = "http://drupal.org/files/issues/789674-5_vocabulary_module.patch"
 
 ; Custom modules
 projects[litecal][subdir] = "custom"
@@ -153,8 +158,9 @@ projects[simpletest][subdir] = "developer"
 projects[simpletest][version] = "2.10"
 
 ; Features
-projects[atrium_features][location] = "http://code.developmentseed.org/fserver"
-projects[atrium_features][version] = "1.0-alpha5"
+projects[atrium_features][type] = "module"
+projects[atrium_features][download][type] = "git"
+projects[atrium_features][download][url] = "git://github.com/ianshward/atrium_features.git"
 
 ; l10n
 projects[core_translation][subdir] = "l10n"
@@ -174,11 +180,13 @@ projects[l10n_update][version] = "1.0-alpha1"
 projects[tao][location] = "http://code.developmentseed.org/fserver"
 projects[tao][version] = "1.9"
 
-projects[rubik][location] = "http://code.developmentseed.org/fserver"
-projects[rubik][version] = "1.0-beta6"
+projects[rubik][type] = "theme"
+projects[rubik][download][type] = "git"
+projects[rubik][download][url] = "git://github.com/developmentseed/rubik.git"
 
-projects[ginkgo][location] = "http://code.developmentseed.org/fserver"
-projects[ginkgo][version] = "1.0-alpha4"
+projects[ginkgo][type] = "theme"
+projects[ginkgo][download][type] = "git"
+projects[ginkgo][download][url] = "git://github.com/developmentseed/ginkgo.git"
 
 ; Libraries
 libraries[jquery_ui][download][type] = "get"
