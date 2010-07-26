@@ -99,8 +99,6 @@ function _openatrium_atrium_modules() {
     'content', 'nodereference', 'text', 'optionwidgets',
     // Feeds
     'feeds', 'parser_ical',
-    // Determine fate of shoutbox.
-    'messaging_shoutbox',
     // Notifications
     //'mailhandler', 'mailcomment',
     'notifications_team',
