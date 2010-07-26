@@ -135,6 +135,7 @@ projects[litecal][location] = "http://code.developmentseed.org/fserver"
 projects[litecal][version] = "1.0-alpha3"
 
 projects[litenode][subdir] = "custom"
+projects[litenode][type] = "module"
 projects[litenode][download][type] = "git"
 projects[litenode][download][url] = "git://github.com/developmentseed/litenode.git"
 
