@@ -109,7 +109,7 @@ projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "2.1"
 
 projects[ucreate][subdir] = "contrib"
-projects[ucreate][version] = "1.0-beta3"
+projects[ucreate][version] = "1.0-beta4"
 
 ; Patched
 projects[date][subdir] = "contrib"
