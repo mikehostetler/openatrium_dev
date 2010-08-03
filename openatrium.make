@@ -4,7 +4,7 @@ core = "6.x"
 ; Contrib projects 
 
 projects[admin][subdir] = "contrib"
-projects[admin][version] = "2.0-beta4"
+projects[admin][version] = "2.0-beta5"
 
 projects[boxes][subdir] = "contrib"
 projects[boxes][version] = "1.0-beta10"
@@ -25,7 +25,10 @@ projects[content_profile][subdir] = "contrib"
 projects[content_profile][version] = "1.0"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta7"
+projects[context][type] = "module"
+projects[context][download][type] = "cvs"
+projects[context][download][module] = "contributions/modules/context"
+projects[context][download][revision] = "DRUPAL-6--3"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.6"
@@ -179,11 +182,10 @@ projects[l10n_update][version] = "1.0-alpha1"
 
 ; Themes
 projects[tao][location] = "http://code.developmentseed.org/fserver"
-projects[tao][version] = "1.9"
+projects[tao][version] = "2.0"
 
-projects[rubik][type] = "theme"
-projects[rubik][download][type] = "git"
-projects[rubik][download][url] = "git://github.com/developmentseed/rubik.git"
+projects[rubik][location] = "http://code.developmentseed.org/fserver"
+projects[rubik][version] = "2.0-beta1"
 
 projects[ginkgo][type] = "theme"
 projects[ginkgo][download][type] = "git"
