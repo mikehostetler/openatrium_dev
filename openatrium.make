@@ -7,7 +7,10 @@ projects[admin][subdir] = "contrib"
 projects[admin][version] = "2.0-beta5"
 
 projects[boxes][subdir] = "contrib"
-projects[boxes][version] = "1.0-beta10"
+projects[boxes][type] = "module"
+projects[boxes][download][type] = "cvs"
+projects[boxes][download][module] = "contributions/modules/boxes"
+projects[boxes][download][revision] = "DRUPAL-6--1"
 
 projects[casetracker][subdir] = "contrib"
 projects[casetracker][version] = "1.0-beta8"
@@ -142,7 +145,7 @@ projects[feedapi2feeds][version] = "1.0-alpha1"
 
 projects[seed][subdir] = "custom"
 projects[seed][location] = "http://code.developmentseed.org/fserver"
-projects[seed][version] = "4.1"
+projects[seed][version] = "4.2"
 
 projects[xref][subdir] = "custom"
 projects[xref][location] = "http://code.developmentseed.org/fserver"
@@ -182,10 +185,10 @@ projects[l10n_update][version] = "1.0-alpha1"
 
 ; Themes
 projects[tao][location] = "http://code.developmentseed.org/fserver"
-projects[tao][version] = "2.0"
+projects[tao][version] = "2.1"
 
 projects[rubik][location] = "http://code.developmentseed.org/fserver"
-projects[rubik][version] = "2.0-beta1"
+projects[rubik][version] = "2.0-beta2"
 
 projects[ginkgo][type] = "theme"
 projects[ginkgo][download][type] = "git"
