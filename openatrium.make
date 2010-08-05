@@ -46,7 +46,7 @@ projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-beta11"
 
 projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "1.0-beta1"
+projects[feeds][version] = "1.0-beta4"
 
 projects[imageapi][subdir] = "contrib"
 projects[imageapi][version] = "1.8"
@@ -76,7 +76,7 @@ projects[notifications][subdir] = "contrib"
 projects[notifications][version] = "2.2"
 
 projects[notifications_team][subdir] = "contrib"
-projects[notifications_team][version] = "2.0-beta6"
+projects[notifications_team][version] = "2.1-beta8"
 
 projects[og][subdir] = "contrib"
 projects[og][version] = "2.1"
@@ -106,7 +106,7 @@ projects[token][subdir] = "contrib"
 projects[token][version] = "1.13"
 
 projects[transliteration][subdir] = "contrib"
-projects[transliteration][version] = "2.1"
+projects[transliteration][version] = "3.0"
 
 projects[ucreate][subdir] = "contrib"
 projects[ucreate][version] = "1.0-beta4"
@@ -156,7 +156,7 @@ projects[coder][subdir] = "developer"
 projects[coder][version] = "2.0-beta1"
 
 projects[devel][subdir] = "developer"
-projects[devel][version] = "1.20"
+projects[devel][version] = "1.21"
 
 projects[schema][subdir] = "developer"
 projects[schema][version] = "1.7"
