@@ -34,7 +34,7 @@ projects[context][download][module] = "contributions/modules/context"
 projects[context][download][revision] = "DRUPAL-6--3"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.6"
+projects[ctools][version] = "1.7"
 
 projects[designkit][subdir] = "contrib"
 projects[designkit][version] = "1.0-alpha5"
@@ -43,7 +43,10 @@ projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.1-alpha3"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta11"
+projects[features][type] = "module"
+projects[features][download][type] = "cvs"
+projects[features][download][module] = "contributions/modules/features"
+projects[features][download][revision] = "DRUPAL-6--1"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "1.0-beta4"
