@@ -126,7 +126,7 @@ projects[views][subdir] = "contrib"
 projects[views][type] = "module"
 projects[views][version] = "2.11"
 ; http://drupal.org/node/694094
-projects[views][patch][] = "http://drupal.org/files/issues/694094_views_default_reset_2010-05-25.patch"
+projects[views][patch][] = "http://drupal.org/files/issues/views-static-cache-resets-694094-7.patch"
 ; original issue: http://drupal.org/node/357529
 projects[views][patch][] = "http://cloud.github.com/downloads/developmentseed/atrium_features/views2_simple_translatables.patch"
 ; http://drupal.org/node/789674#comment-3230930
