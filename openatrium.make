@@ -7,7 +7,10 @@ projects[admin][subdir] = "contrib"
 projects[admin][version] = "2.0-beta5"
 
 projects[boxes][subdir] = "contrib"
-projects[boxes][version] = "1.0-beta10"
+projects[boxes][type] = "module"
+projects[boxes][download][type] = "cvs"
+projects[boxes][download][module] = "contributions/modules/boxes"
+projects[boxes][download][revision] = "DRUPAL-6--1"
 
 projects[casetracker][subdir] = "contrib"
 projects[casetracker][version] = "1.0-beta8"
@@ -31,7 +34,7 @@ projects[context][download][module] = "contributions/modules/context"
 projects[context][download][revision] = "DRUPAL-6--3"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.6"
+projects[ctools][version] = "1.7"
 
 projects[designkit][subdir] = "contrib"
 projects[designkit][version] = "1.0-alpha5"
@@ -40,10 +43,13 @@ projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.1-alpha3"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta11"
+projects[features][type] = "module"
+projects[features][download][type] = "cvs"
+projects[features][download][module] = "contributions/modules/features"
+projects[features][download][revision] = "DRUPAL-6--1"
 
 projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "1.0-beta1"
+projects[feeds][version] = "1.0-beta4"
 
 projects[imageapi][subdir] = "contrib"
 projects[imageapi][version] = "1.8"
@@ -73,7 +79,7 @@ projects[notifications][subdir] = "contrib"
 projects[notifications][version] = "2.2"
 
 projects[notifications_team][subdir] = "contrib"
-projects[notifications_team][version] = "2.0-beta6"
+projects[notifications_team][version] = "2.1-beta8"
 
 projects[og][subdir] = "contrib"
 projects[og][version] = "2.1"
@@ -103,7 +109,7 @@ projects[token][subdir] = "contrib"
 projects[token][version] = "1.13"
 
 projects[transliteration][subdir] = "contrib"
-projects[transliteration][version] = "2.1"
+projects[transliteration][version] = "3.0"
 
 projects[ucreate][subdir] = "contrib"
 projects[ucreate][version] = "1.0-beta4"
@@ -120,7 +126,7 @@ projects[views][subdir] = "contrib"
 projects[views][type] = "module"
 projects[views][version] = "2.11"
 ; http://drupal.org/node/694094
-projects[views][patch][] = "http://drupal.org/files/issues/694094_views_default_reset_2010-05-25.patch"
+projects[views][patch][] = "http://drupal.org/files/issues/views-static-cache-resets-694094-7.patch"
 ; original issue: http://drupal.org/node/357529
 projects[views][patch][] = "http://cloud.github.com/downloads/developmentseed/atrium_features/views2_simple_translatables.patch"
 ; http://drupal.org/node/789674#comment-3230930
@@ -142,7 +148,7 @@ projects[feedapi2feeds][version] = "1.0-alpha1"
 
 projects[seed][subdir] = "custom"
 projects[seed][location] = "http://code.developmentseed.org/fserver"
-projects[seed][version] = "4.1"
+projects[seed][version] = "4.2"
 
 projects[xref][subdir] = "custom"
 projects[xref][location] = "http://code.developmentseed.org/fserver"
@@ -153,7 +159,7 @@ projects[coder][subdir] = "developer"
 projects[coder][version] = "2.0-beta1"
 
 projects[devel][subdir] = "developer"
-projects[devel][version] = "1.20"
+projects[devel][version] = "1.21"
 
 projects[schema][subdir] = "developer"
 projects[schema][version] = "1.7"
@@ -182,10 +188,10 @@ projects[l10n_update][version] = "1.0-alpha1"
 
 ; Themes
 projects[tao][location] = "http://code.developmentseed.org/fserver"
-projects[tao][version] = "2.0"
+projects[tao][version] = "2.1"
 
 projects[rubik][location] = "http://code.developmentseed.org/fserver"
-projects[rubik][version] = "2.0-beta1"
+projects[rubik][version] = "2.0-beta2"
 
 projects[ginkgo][type] = "theme"
 projects[ginkgo][download][type] = "git"
